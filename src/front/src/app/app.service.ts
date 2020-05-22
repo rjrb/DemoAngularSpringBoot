@@ -8,7 +8,7 @@ import { Resultado } from './resultado';
 })
 export class Servicio {
 
-    private urlApi = `http://localhost:8080/api`;
+    private urlApi = `${window.location.origin}/api`;
 
     constructor(private http: HttpClient) { }
 
